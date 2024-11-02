@@ -4,7 +4,7 @@ import Navbar from "./Navbar/Navbar";
 
 export default function Root() {
   return (
-    <div>
+    <div className="max-w-7xl mx-auto">
         <Navbar></Navbar>
         <Outlet></Outlet>
         <Footer></Footer>
