@@ -7,6 +7,7 @@ import Root from "./Components/Root/Root";
 import Error from "./Components/Error/Error";
 import Home from "./Components/Home/Home"; 
 import Dashbord from "./Components/Dashbord/Dashbord";
+import BookDetails from "./Components/BookDetails/BookDetails";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path:"books:/bookId",
+        element:<BookDetails/>
       },
       {
         path: "dashboard",
