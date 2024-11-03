@@ -17,8 +17,9 @@ export default function Book({ book }) {
       <div className="card-body">
         <div className="flex justify-center gap-4">
           {tags.map((tag, index) => (
-            <button key={index} className="btn btn-xs bg-green-100 text-green-600">
-              {tag}
+
+<button key={index} className="btn btn-xs bg-green-100 text-green-600">
+{tag}
             </button>
           ))}
         </div>
